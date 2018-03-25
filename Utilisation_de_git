@@ -1,0 +1,41 @@
+Les commandes de base utile pour utiliser la console Linux:
+- pwd : pour savoir dans quel répertoire on se trouve
+- ls : pour voir a liste des fichiers et répertoires dans le dossier
+- ls -l -a : pour savoir les droits, la date et l'heure de la dernière modification du fichier 
+- cd : pour se déplacer d'un dossier à un autre
+- touch : pour créer un fichier
+- mkdir : pour créer un dossier
+- rmdir : pour supprimer un dossier
+- cat : pour afficher le contenu d'un fichier
+
+Les commandes utile pour utiliser Vim:
+:w pour sauvegarder le fichier
+:q pour quitter Vim
+
+Les commandes utiles pour utiliser git:
+- créer un dossier monProjet
+- cd monProjet
+- mkdir monPremierProjet
+
+pour installer git
+- git init
+
+Lorsqu'on crée un fichier dans un repository, on doit l'ajouter à l'index Git à 
+l'aide de la commande git add nomDeVotreFichier.extension 
+Lorsqu'on modifie le repository, on doit demander à Git d'enregistrer les modifications 
+en faisant un git commit.
+Pour voir l'historique des commit taper : git log
+
+Dans la console git pour copier du texte : ctrl + Inser
+et pour coller le texte copier : shift + Inser
+
+git status : pour voir le statut des fichiers
+git add : pour ajouter le fichier à l'index de git
+git commit : pour créer un nouveau commit
+
+Pour récupérer des fichiers de gitHub : 
+- faire une recherche dans gitHub : par exemple "react"
+- cliquer sur "clone or download"
+- copier le lien https "https://github.com/facebook/react.git"
+- ouvrir un console git, aller dans le dossier où on veut mettre les fichiers et faire : 
+git clone https://github.com/facebook/react.git
